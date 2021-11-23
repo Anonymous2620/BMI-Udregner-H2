@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simranjit Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="BMI">
+        <div class="display-4 text-center">Simranjits BMI Calculator </div>
+        <div class ="text-center"> <p><em> The formula for calculating BMI is = Bodyweight in KG / (Height x Height) in CM  </em></p></div>
+        <div class="card-body"> 
+            <form class="w-50 m-auto" onsubmit="return false">
+                <div class="form-group">
+                    <label> Weight: </label>
+                    <input type="text" name="" placeholder="Weight" required id="weight" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label> Height: </label>
+                    <input type="text" name="" placeholder="Height" required id="height" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label> Your BMI: </label>
+                    <input type="number" name="" id="bmiresult" class="form-control">
+                </div>
+                <div>
+                    <button type="submit" class="btn" onclick="bmicalculator()"> Calculate BMI result</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
